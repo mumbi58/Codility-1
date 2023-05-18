@@ -6,7 +6,8 @@
 =end
 
 def select_keys(hash, keys)
-    # Your code here
+    # Your code hereok ,,
+    hash.select {|element, value|keys.include?(element)}
 end
 
 # Example usage
